@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pro2</title>
+    <link href="img/favicon.png" rel="icon" type="png/img" />
+
+</head>
+
+<style type="text/css">
+    *{
+        cursor: pointer;
+    }
+    body{
+        font-family: "Lucida Handwriting";
+        font-size: 25px;
+        font-weight: bolder;
+        height: 100vh;
+        /*background-color: #0d0c0d;*/
+        background-image: url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+        display: flex;
+        /*flex-direction: column;*/
+        
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .container{
+        width: 100%;
+        height: 100vh;
+        text-align: bottom;
+
+        position:absolute;
+       text-shadow: 3px 3px 5px #fff;
+    }
+
+    
+
+    .text p{
+        color: transparent;
+         background:linear-gradient(30deg,rgba(255, 0, 142, 1)0%, rgba(92, 190, 197, 1)20%, rgba(164, 196, 8, 1)75%, rgba(217, 66, 9, 1)100%);
+
+         -webkit-background-clip: text;
+        
+
+         animation: myuni 3s linear forwards;
+         opacity: 0;
+         margin-left: 20px;
+         animation-play-state: paused;
+    }
+
+    body.start p{
+        animation-play-state: running;
+    }
+
+    .text p:nth-child(1){
+        animation-delay: 3s;
+
+    }
+    .text p:nth-child(2){
+        animation-delay: 6s;
+        
+    }
+    .text p:nth-child(3){
+        animation-delay: 9s;
+        
+    }
+    .text p:nth-child(4){
+        animation-delay: 12s;
+        
+    }
+    .text p:nth-child(5){
+        animation-delay: 15s;
+        
+    }
+    .text p:nth-child(6){
+        animation-delay: 18s;
+        
+    }
+
+     @keyframes myuni{
+        0%{
+            opacity: 0;
+
+        }
+       50%{
+            opacity: 1;
+
+        }
+        100%{
+            opacity: 1;
+
+        }
+    }
+
+
+
+    .pro{
+        text-align: center;
+        text-transform: uppercase;
+        
+        padding: 0px 0px 10px 50px;
+        text-shadow: 0 2px 10px #f5eeda;
+
+    }
+
+   .container span{
+        position: absolute;
+        bottom: -100px;
+
+
+
+        animation-name: myani;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+
+    .container span:nth-child(1){
+
+        color: #fff;
+        font-size: 30px;
+       
+        left: 7%;
+        animation-delay: 2s;
+    }
+      .container span:nth-child(2){
+        
+        color: #f5a890;
+       font-size: 35px;
+       animation-delay: 3s;
+       
+        left: 15%;
+    }
+
+  .container span:nth-child(3){
+        
+        color:#fff;
+       font-size: 40px;
+       animation-delay: 1s;
+       
+        left: 45%;
+    }
+
+  .container span:nth-child(4){
+        
+        color: #f5eeda;
+        font-size: 55px;
+        animation-delay: 2s;
+       
+        left: 55%;
+    }
+
+  .container span:nth-child(5){
+        
+        color:#bef590;
+       font-size: 48px;
+       animation-delay: 3s;
+       
+        left: 27%;
+    }
+  .container span:nth-child(6){
+        
+        color: #f5eeda;
+        
+       font-size: 44px;
+       animation-delay: 2s;
+        left: 67%;
+    }
+  .container span:nth-child(7){
+        
+        color: #fff;
+        font-size: 52px;
+        animation-delay: 1s;
+       
+        left: 85%;
+    }
+  .container span:nth-child(8){
+        
+        color: #90f5eb;
+        font-size: 34px;
+        animation-delay: 2s;
+       
+        left: 75%;
+    }
+  .container span:nth-child(9){
+        
+        color: #fff;
+        font-size: 48px;
+        animation-delay: 3s;
+       
+       
+        margin-left: 10%;
+    }
+  .container span:nth-child(10){
+        
+        color: #bdf0c7;
+        font-size: 34px;
+        animation-delay: 2s;
+       
+       
+        right: 60%;
+    }
+
+
+    @keyframes myani{
+        0%{
+            bottom: -100px;
+        }
+        10%{
+            opacity: 0;
+
+        }
+        20%{
+            opacity: 1;
+
+        }
+        30%{
+            opacity: 0;
+
+        }
+        40%{
+            opacity: 1;
+
+        }
+        50%{
+            opacity: 0;
+
+        }
+        60%{
+            opacity: 1;
+
+        }
+        70%{
+            opacity: 0;
+
+        }
+        80%{
+            opacity: 1;
+
+        }
+        90%{
+            opacity: 0;
+
+        }
+
+
+        100%{
+            bottom: 100%;
+            transform: rotate(1turn);
+            opacity: 1;
+
+        }
+
+    }
+
+    .container2 span{
+        position: absolute;
+        top: -100px;
+
+
+
+        animation-name: myjob;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+
+   .container2 span:nth-child(1){
+
+        color: #fff;
+        font-size: 30px;
+       
+        left: 7%;
+        animation-delay: 2s;
+    }
+      .container2 span:nth-child(2){
+        
+        color: #f5eeda;
+       font-size: 35px;
+       animation-delay: 3s;
+       
+        left: 15%;
+    }
+
+  .container2 span:nth-child(3){
+        
+        color:#f551ea;
+       font-size: 40px;
+       animation-delay: 1s;
+       
+        left: 45%;
+    }
+
+  .container2 span:nth-child(4){
+        
+        color: #f5eeda;
+        font-size: 55px;
+        animation-delay: 2s;
+       
+        left: 55%;
+    }
+
+  .container2 span:nth-child(5){
+        
+        color: #fff;
+       font-size: 32px;
+       animation-delay: 3s;
+       
+        left: 27%;
+    }
+  .container2 span:nth-child(6){
+        
+        color: #e2f551;
+        
+       font-size: 44px;
+       animation-delay: 2s;
+        left: 67%;
+    }
+  .container2 span:nth-child(7){
+        
+        color: #fff;
+        font-size: 48px;
+        animation-delay: 1s;
+       
+        left: 85%;
+    }
+  .container2 span:nth-child(8){
+        
+        color: #c651f5;
+        font-size: 34px;
+        animation-delay: 2s;
+       
+        left: 75%;
+    }
+  .container2 span:nth-child(9){
+        
+        color: #fff;
+        font-size: 35px;
+        animation-delay: 3s;
+       
+       
+        margin-left: 10%;
+    }
+  .container2 span:nth-child(10){
+        
+        color: #ed9fb1;
+        font-size: 52px;
+        animation-delay: 2s;
+       
+       
+        right: 60%;
+    }
+
+
+    @keyframes myjob{
+        0%{
+            top: -100px;
+        }
+        10%{
+            opacity: 0;
+
+        }
+        20%{
+            opacity: 1;
+
+        }
+        30%{
+            opacity: 0;
+
+        }
+        40%{
+            opacity: 1;
+
+        }
+        50%{
+            opacity: 0;
+
+        }
+        60%{
+            opacity: 1;
+
+        }
+        70%{
+            opacity: 0;
+
+        }
+        80%{
+            opacity: 1;
+
+        }
+        90%{
+            opacity: 0;
+
+        }
+
+
+        100%{
+            top: 100%;
+            transform: rotate(1turn);
+            opacity: 1;
+
+        }
+
+    }
+    a{
+        width: 300px;
+        height: 50px;
+        font-size: 30px;
+        color:#f5eeda ;
+        text-decoration: none;
+        position: absolute;
+        bottom: 10px;
+        right: 30px;
+    }
+
+    button{
+        position: absolute;
+        top: 200px;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 30px;
+        font-family: "Lucida Handwriting";
+
+        color: #f5eeda;
+        background-color: transparent;
+
+        border: 0;
+
+
+
+    }
+
+
+    </style>
+<body>
+
+<div class="container">
+
+    <span >☆</span>
+    <span >☆</span>
+    <span >☆</span>
+    <span >☆</span>
+    <span >☆</span>
+    <span >☆</span>
+    <span >☆</span>
+    <span >☆</span>
+    <span >☆</span>
+    <span >☆</span>
+    
+</div>
+
+<div class="container2">
+
+    <span >☆</span>
+    <span >☆</span>
+    <span >☆</span>
+    <span >☆</span>
+    <span >☆</span>
+    <span >☆</span>
+    <span >☆</span>
+    <span >☆</span>
+    <span >☆</span>
+    <span >☆</span>
+    
+</div>
+
+<div class="text">
+    <p class="pro">☆*: .｡. Happy Birthday Sayar .｡.:*☆</p>
+    
+        <p>"Birthdays are a new start,</p>
+        <p>a fresh beginning and a time to pursue new endeavors with new goals.</p>
+        <p>Move forward with confidence and courage.</p>
+        <p>You are a very special person.</p>
+        <p>May today and all of your days be amazing!”</p>
+    </div>
+
+<audio src="audio/birthdaysong.mp3" id="audio"></audio>
+<button id="btm">Click Me First</button>
+
+    
+<a href="#">Go To Team Page</a>
+
+<script type="text/javascript">
+
+    const audio=document.getElementById("audio");
+    const body=document.querySelector("body");
+    const btm=document.getElementById("btm");
+
+    btm.addEventListener("click",()=>{
+        audio.play();
+        body.classList.add("start");
+        btm.remove();
+        setTimeout(()=>{
+            audio.pause();
+        },25000);
+    });
+    
+    
+   
+
+
+    
+</script>
+
+</body>
+</html>
